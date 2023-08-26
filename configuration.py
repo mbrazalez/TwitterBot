@@ -4,8 +4,7 @@ import openai
 
 
 class BaseConfiguration(object):
-    APP_SERVICE = os.environ.get('AWS_SERVICE', 'businness-analytics')
-
+    
     # AWS CONFIGURATION
     # > AWS SERVICE: ENVIRONMENT
     AWS_STAGE = os.getenv('AWS_STAGE', None)
